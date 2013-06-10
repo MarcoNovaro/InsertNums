@@ -1,4 +1,6 @@
 # Sublime Text - InsertNums
+Forked from [here](https://github.com/jbrooksuk/InsertNums). All credits to the original author!
+
 Sublime Text plugin, that inserts consecutive numbers across multiple selections.
 
 ## Compatibility
@@ -28,6 +30,10 @@ InsertNums can also insert the alphabet! Just use `a 1 0` as your values, or cha
 	ajmq
 
 All that's happening there is that the next letter in the sequence is shunted across by the step amount.
+
+## Inserting HEX numbers
+
+If the first value inserted is "x, InsertNums will insert hex numbers into selection. Full syntax is "xn", where n is the first number to insert.
 
 # License
 MIT - [http://jbrooksuk.mit-license.org](http://jbrooksuk.mit-license.org)
